@@ -2,4 +2,6 @@
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
-/src/.vs/SolveConverter
+/src/.vs
+/src/bin
+/src/obj

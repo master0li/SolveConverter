@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "SolveConverter": {
+      "commandName": "Project",
+      "commandLineArgs": "-i solves.txt"
+    }
+  }
+}

@@ -24,7 +24,7 @@ namespace SolveConverter
                        {
                            Console.WriteLine("Converting - {0}",o.InputFile);
 
-                           ConvertTwistyTimer(o.InputFile);
+                           ConvertTwistyTimerToCSTimer(o.InputFile);
 
                            Console.WriteLine("Finished {0} {1}", DateTime.Now.ToShortDateString(), DateTime.Now.ToShortTimeString());
                        }
@@ -32,7 +32,7 @@ namespace SolveConverter
             
         }
 
-        public static void ConvertTwistyTimer(string solvesFile)
+        public static void ConvertTwistyTimerToCSTimer(string solvesFile)
         {
 
             string line = "";
